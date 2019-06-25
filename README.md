@@ -7,5 +7,6 @@ El objetivo es intentar ordenar y clarificar como se pueden crear máquinas de e
 
 Intentaremos llegar un poco más allá ( todo llevará su tiempo ) e intentaremos mostrar como diseñar un sistema digital, separando el diseño en dos partes, una "parte de control" ( la máquina de estados propiamente dicha ) y una "parte de datos", llamada "Datapath" que se encargará del manejo de los datos ( carga de registros, desplazamientos, operaciones aritméticas, traspaso de información de un registro a otro, etc... ), todo esto lo intentaremos plasmar en un "Flowchart" algo más avanzado que lo denominaremos ASMD, donde, ya no solo se representan los datos de la máquina de estado, ahora, sobre el  nuevo diagrama, se plasmarán tanto los estados como las señales de control que intervienen y los flujos de datos que se producirán en el sistema digital ante las reacciones de las señales enviadas/recibidas.
 
-Todo esto se irá plasmando en la wiki conforme se avance en la documentación.
+Todo esto se irá plasmando en la [wiki](https://github.com/jospicant/FSM_ASMD_Verilog_Icestudio/wiki) conforme se avance en la documentación.
+
 

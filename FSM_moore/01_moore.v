@@ -5,8 +5,8 @@ module my_moore1(clk,reset,inA,inB,OutA,OutB);
 
 input clk,reset,inA,inB;
 output OutA,OutB;
-reg OutA,OutB;
-reg[1:0] estado_actual,estado_siguiente;
+reg OutA=0,OutB=0;
+reg[1:0] estado_actual=0,estado_siguiente=0;
 
 parameter E0=0,E1=1,E2=2,E3=3;   // 4 estados posibles
 

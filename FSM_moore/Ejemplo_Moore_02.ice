@@ -174,8 +174,8 @@
           }
         },
         {
-          "id": "db2cb916-4709-458f-baba-7a06a5ab8e1b",
-          "type": "fe8f242d5ae8661275cbdd5b7f6600b27a89cfe0",
+          "id": "0c353327-b366-478d-a321-90ece51364af",
+          "type": "029a11f572fd6c1cd62edfb319e6d020638ad2f2",
           "position": {
             "x": 400,
             "y": 168
@@ -189,8 +189,8 @@
       "wires": [
         {
           "source": {
-            "block": "db2cb916-4709-458f-baba-7a06a5ab8e1b",
-            "port": "ad4fa8f1-67d6-4fe4-afcb-72817cf14274"
+            "block": "0c353327-b366-478d-a321-90ece51364af",
+            "port": "cffcf932-1e6b-48ec-847e-9933fe999513"
           },
           "target": {
             "block": "9671ee02-ad5d-4713-839c-a4107b7ec605",
@@ -199,8 +199,8 @@
         },
         {
           "source": {
-            "block": "db2cb916-4709-458f-baba-7a06a5ab8e1b",
-            "port": "c0f951d7-5812-488d-a227-62797120f98f"
+            "block": "0c353327-b366-478d-a321-90ece51364af",
+            "port": "3efd2a0e-495d-4717-b7f8-3718d3133aab"
           },
           "target": {
             "block": "2291f1d2-4335-47bb-9044-94411d64c5ef",
@@ -213,8 +213,8 @@
             "port": "3d584b0a-29eb-47af-8c43-c0822282ef05"
           },
           "target": {
-            "block": "db2cb916-4709-458f-baba-7a06a5ab8e1b",
-            "port": "6a510b44-69c7-4574-8318-03e6c3c32739"
+            "block": "0c353327-b366-478d-a321-90ece51364af",
+            "port": "de8c0753-a07c-4d39-bff6-a5ab83806582"
           },
           "vertices": [
             {
@@ -293,13 +293,13 @@
             "port": "1d2e403f-0fa6-41fd-83a9-4f309eadd855"
           },
           "target": {
-            "block": "db2cb916-4709-458f-baba-7a06a5ab8e1b",
-            "port": "33d30b91-7e88-46c0-9f1d-8b04ecb04673"
+            "block": "0c353327-b366-478d-a321-90ece51364af",
+            "port": "59b9f823-22f8-4586-9d09-fd083d853bff"
           },
           "vertices": [
             {
-              "x": 320,
-              "y": 160
+              "x": 328,
+              "y": 144
             }
           ]
         },
@@ -309,9 +309,15 @@
             "port": "1d2e403f-0fa6-41fd-83a9-4f309eadd855"
           },
           "target": {
-            "block": "db2cb916-4709-458f-baba-7a06a5ab8e1b",
-            "port": "c1afd279-3ed4-4993-8878-aaa1e507106f"
-          }
+            "block": "0c353327-b366-478d-a321-90ece51364af",
+            "port": "53c83564-f92c-4767-bd9c-ab23eb9023a5"
+          },
+          "vertices": [
+            {
+              "x": 352,
+              "y": 104
+            }
+          ]
         }
       ]
     }
@@ -718,9 +724,9 @@
         }
       }
     },
-    "fe8f242d5ae8661275cbdd5b7f6600b27a89cfe0": {
+    "029a11f572fd6c1cd62edfb319e6d020638ad2f2": {
       "package": {
-        "name": "FSM Moore",
+        "name": "Moore Verilog",
         "version": "v1.0",
         "description": "Ejemplo de una máquina de estados tipo Moore",
         "author": "José Picó",
@@ -730,189 +736,104 @@
         "graph": {
           "blocks": [
             {
-              "id": "c1afd279-3ed4-4993-8878-aaa1e507106f",
+              "id": "53c83564-f92c-4767-bd9c-ab23eb9023a5",
               "type": "basic.input",
               "data": {
-                "name": "inA",
+                "name": "A",
                 "clock": false
               },
               "position": {
-                "x": -96,
-                "y": 136
+                "x": 592,
+                "y": -40
               }
             },
             {
-              "id": "ad4fa8f1-67d6-4fe4-afcb-72817cf14274",
+              "id": "cffcf932-1e6b-48ec-847e-9933fe999513",
               "type": "basic.output",
               "data": {
-                "name": "OutA"
+                "name": "O1"
               },
               "position": {
-                "x": 2336,
-                "y": 256
+                "x": 1632,
+                "y": -24
               }
             },
             {
-              "id": "33d30b91-7e88-46c0-9f1d-8b04ecb04673",
+              "id": "59b9f823-22f8-4586-9d09-fd083d853bff",
               "type": "basic.input",
               "data": {
-                "name": "inB",
+                "name": "B",
                 "clock": false
               },
               "position": {
-                "x": -96,
-                "y": 264
+                "x": 592,
+                "y": -8
               }
             },
             {
-              "id": "8d589eac-b503-4289-bac5-cb43634ac99d",
-              "type": "basic.outputLabel",
-              "data": {
-                "blockColor": "greenyellow",
-                "name": "reset"
-              },
-              "position": {
-                "x": 816,
-                "y": 328
-              }
-            },
-            {
-              "id": "d2e465f7-25c4-448e-8fec-652e9d328758",
-              "type": "basic.outputLabel",
-              "data": {
-                "blockColor": "yellow",
-                "name": "clk"
-              },
-              "position": {
-                "x": 816,
-                "y": 392
-              }
-            },
-            {
-              "id": "c0f951d7-5812-488d-a227-62797120f98f",
-              "type": "basic.output",
-              "data": {
-                "name": "OutB"
-              },
-              "position": {
-                "x": 2336,
-                "y": 408
-              }
-            },
-            {
-              "id": "6a510b44-69c7-4574-8318-03e6c3c32739",
+              "id": "de8c0753-a07c-4d39-bff6-a5ab83806582",
               "type": "basic.input",
               "data": {
                 "name": "reset",
                 "clock": false
               },
               "position": {
-                "x": -88,
-                "y": 664
+                "x": 592,
+                "y": 32
               }
             },
             {
-              "id": "fa397952-4de8-4433-9e68-eb6d25c04eea",
-              "type": "basic.inputLabel",
+              "id": "3efd2a0e-495d-4717-b7f8-3718d3133aab",
+              "type": "basic.output",
               "data": {
-                "blockColor": "greenyellow",
-                "name": "reset",
-                "pins": [
-                  {
-                    "index": "0",
-                    "name": "",
-                    "value": ""
-                  }
-                ],
-                "virtual": true
+                "name": "O2"
               },
               "position": {
-                "x": 80,
-                "y": 664
+                "x": 1632,
+                "y": 48
               }
             },
             {
-              "id": "fb61a282-ecc6-4225-a582-c9a869a74dfe",
+              "id": "06559b25-94e1-4cf2-aebb-895ecf5fb300",
               "type": "basic.input",
               "data": {
                 "name": "clk",
                 "clock": false
               },
               "position": {
-                "x": -88,
-                "y": 736
+                "x": 592,
+                "y": 72
               }
             },
             {
-              "id": "99b59553-ce43-4b8a-91a7-4422530ee6c1",
-              "type": "basic.inputLabel",
+              "id": "97541011-cb2f-41b3-a165-f528e7a7f678",
+              "type": "basic.info",
               "data": {
-                "blockColor": "yellow",
-                "name": "clk",
-                "pins": [
-                  {
-                    "index": "0",
-                    "name": "",
-                    "value": ""
-                  }
-                ],
-                "virtual": true
+                "info": "\nMódulo formado por la importación de un módulo verilog desde su fichero *.v (01_moore.v)\n\nSe instancia el módulo para crear nuestro módulo.",
+                "readonly": false
               },
               "position": {
-                "x": 80,
-                "y": 736
-              }
-            },
-            {
-              "id": "8a0ee652-76b1-4650-8578-7f3aee5e1d79",
-              "type": "basic.code",
-              "data": {
-                "code": "\nreg[1:0] estado_siguiente=0;\nparameter E0=0, E1=1, E2=2, E3=3;\n\nalways @(inA or inB or estado_actual)\n\nbegin\n\n\tcase(estado_actual)\n\t\n\t   E0:begin\n\t\t\tcase ({inA,inB})\n\t\t\t\t0:estado_siguiente=E0;\n\t\t\t\t1:estado_siguiente=E3;\n\t\t\t\t2:estado_siguiente=E1;\n\t\t\t\tdefault:estado_siguiente=E0;\n\t\t\tendcase\n\t\t   end\n\t\t   \n\t\tE1:begin\n\t\t\tcase ({inA,inB})\n\t\t\t\t0:estado_siguiente=E1;\n\t\t\t\t1:estado_siguiente=E2;\n\t\t\t\t2:estado_siguiente=E0;\n\t\t\t\tdefault:estado_siguiente=E1;\n\t\t\tendcase\n\t\t   end\n\t\t   \n\t\tE2:begin\n\t\t\tcase ({inA,inB})\n\t\t\t\t0:estado_siguiente=E2;\n\t\t\t\t1:estado_siguiente=E1;\n\t\t\t\t2:estado_siguiente=E3;\n\t\t\t\tdefault:estado_siguiente=E2;\n\t\t\tendcase\n\t\t   end\n\t\t   \n\t\tE3:begin\n\t\t\tcase ({inA,inB})\n\t\t\t\t0:estado_siguiente=E3;\n\t\t\t\t1:estado_siguiente=E0;\n\t\t\t\t2:estado_siguiente=E2;\n\t\t\t\tdefault:estado_siguiente=E3;\n\t\t\tendcase\n\t\t   end\n\t\t   \n\t\tdefault:estado_siguiente=E0;\n\t\t\n\tendcase\nend",
-                "params": [],
-                "ports": {
-                  "in": [
-                    {
-                      "name": "inA"
-                    },
-                    {
-                      "name": "inB"
-                    },
-                    {
-                      "name": "estado_actual",
-                      "range": "[1:0]",
-                      "size": 2
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "estado_siguiente",
-                      "range": "[1:0]",
-                      "size": 2
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 160,
-                "y": 104
+                "x": 600,
+                "y": -176
               },
               "size": {
-                "width": 568,
-                "height": 384
+                "width": 1136,
+                "height": 112
               }
             },
             {
-              "id": "0353494b-1620-47cd-8e8b-e8783b4a9821",
+              "id": "7b5469f0-4314-47ee-8a99-f7bda647a7c5",
               "type": "basic.code",
               "data": {
-                "code": "\r\nreg[1:0] estado_actual=0;\r\nparameter E0=0, E1=1, E2=2, E3=3;\r\n\r\nalways @(posedge clk or posedge reset)\r\nbegin\r\n  if(reset) estado_actual<=2'b00; // E0\r\n  else estado_actual <= estado_siguiente;\r\nend",
+                "code": "\n\n//@include 01_moore.v\n\nmy_moore1  miMaquina(.clk(clk),.reset(reset),.inA(A),.inB(B),.OutA(O1),.OutB(O2));",
                 "params": [],
                 "ports": {
                   "in": [
                     {
-                      "name": "estado_siguiente",
-                      "range": "[1:0]",
-                      "size": 2
+                      "name": "A"
+                    },
+                    {
+                      "name": "B"
                     },
                     {
                       "name": "reset"
@@ -923,242 +844,83 @@
                   ],
                   "out": [
                     {
-                      "name": "estado_actual",
-                      "range": "[1:0]",
-                      "size": 2
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 1040,
-                "y": 264
-              },
-              "size": {
-                "width": 432,
-                "height": 192
-              }
-            },
-            {
-              "id": "46a88722-589a-49dc-882a-780bf7c6f33a",
-              "type": "basic.info",
-              "data": {
-                "info": "\n### Bloque combinacional. Definimos transiciones entre Estados.  \nLa salida \"estado_siguiente\" es función de las entradas \"inA,inB y   \ndel estado_actual\". \n\n**Este bloque se encarga de asignar el próximo_estado al que pasaremos  \nen función de las entradas y el estado_actual en el cual nos encontremos.**\n\n### *estado_siguiente = función ( inA, inB , estado_actual )*",
-                "readonly": true
-              },
-              "position": {
-                "x": 256,
-                "y": -128
-              },
-              "size": {
-                "width": 696,
-                "height": 168
-              }
-            },
-            {
-              "id": "a47a3ea7-6eba-4245-adf8-2bbe45e44ecc",
-              "type": "basic.info",
-              "data": {
-                "info": "\n### Circuito Sequencial.  \n\ntraspasamos el estado_siguiente como estado_actual.\nEquivaldrá a un registro que capturará el próximo estado al  \ncual pasará",
-                "readonly": true
-              },
-              "position": {
-                "x": 1040,
-                "y": 120
-              },
-              "size": {
-                "width": 552,
-                "height": 144
-              }
-            },
-            {
-              "id": "1fbb6ae8-bae6-47f3-a088-099f5966e874",
-              "type": "basic.code",
-              "data": {
-                "code": "\nreg OutA=0, OutB=0;\nparameter E0=0, E1=1, E2=2, E3=3;\n\nalways @(estado_actual)\nbegin\n\tcase(estado_actual)\n\t  E0:{OutA,OutB}=0;\n\t  E1:{OutA,OutB}=1;\n\t  E2:{OutA,OutB}=2;\n\t  E3:{OutA,OutB}=3;\n\t  default: {OutA,OutB}=0;\n\tendcase\nend\n",
-                "params": [],
-                "ports": {
-                  "in": [
-                    {
-                      "name": "estado_actual",
-                      "range": "[1:0]",
-                      "size": 2
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "OutA"
+                      "name": "O1"
                     },
                     {
-                      "name": "OutB"
+                      "name": "O2"
                     }
                   ]
                 }
               },
               "position": {
-                "x": 1792,
-                "y": 208
+                "x": 848,
+                "y": -24
               },
               "size": {
-                "width": 448,
-                "height": 304
-              }
-            },
-            {
-              "id": "4d3a89fe-be5b-48f1-ac71-5a08170fcf49",
-              "type": "basic.info",
-              "data": {
-                "info": "\n# Máquina de Moore.  \n\nLa máquina de estados de Moore se caracteriza porque la salida que se obtiene depende única y exclusivamente del estado en el que nos emcontramos independientemente de las entradas que tengamos.\nPor lo que la salida solo cambiará cuamdo cambiemos de estado.\n",
-                "readonly": true
-              },
-              "position": {
-                "x": 184,
-                "y": -312
-              },
-              "size": {
-                "width": 1664,
+                "width": 728,
                 "height": 136
-              }
-            },
-            {
-              "id": "beee269b-a6e9-4843-b1ff-97271a958e4a",
-              "type": "basic.info",
-              "data": {
-                "info": "\n### Circuito Combinacional.  \n\nCircuito combinancional donde se obtiene el valor de salida correcto   \nen función única y exclusivamente del estado en el que nos encontramos.",
-                "readonly": true
-              },
-              "position": {
-                "x": 1792,
-                "y": 80
-              },
-              "size": {
-                "width": 592,
-                "height": 120
               }
             }
           ],
           "wires": [
             {
               "source": {
-                "block": "8d589eac-b503-4289-bac5-cb43634ac99d",
-                "port": "outlabel"
+                "block": "7b5469f0-4314-47ee-8a99-f7bda647a7c5",
+                "port": "O1"
               },
               "target": {
-                "block": "0353494b-1620-47cd-8e8b-e8783b4a9821",
+                "block": "cffcf932-1e6b-48ec-847e-9933fe999513",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "7b5469f0-4314-47ee-8a99-f7bda647a7c5",
+                "port": "O2"
+              },
+              "target": {
+                "block": "3efd2a0e-495d-4717-b7f8-3718d3133aab",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "53c83564-f92c-4767-bd9c-ab23eb9023a5",
+                "port": "out"
+              },
+              "target": {
+                "block": "7b5469f0-4314-47ee-8a99-f7bda647a7c5",
+                "port": "A"
+              }
+            },
+            {
+              "source": {
+                "block": "59b9f823-22f8-4586-9d09-fd083d853bff",
+                "port": "out"
+              },
+              "target": {
+                "block": "7b5469f0-4314-47ee-8a99-f7bda647a7c5",
+                "port": "B"
+              }
+            },
+            {
+              "source": {
+                "block": "de8c0753-a07c-4d39-bff6-a5ab83806582",
+                "port": "out"
+              },
+              "target": {
+                "block": "7b5469f0-4314-47ee-8a99-f7bda647a7c5",
                 "port": "reset"
               }
             },
             {
               "source": {
-                "block": "d2e465f7-25c4-448e-8fec-652e9d328758",
-                "port": "outlabel"
+                "block": "06559b25-94e1-4cf2-aebb-895ecf5fb300",
+                "port": "out"
               },
               "target": {
-                "block": "0353494b-1620-47cd-8e8b-e8783b4a9821",
+                "block": "7b5469f0-4314-47ee-8a99-f7bda647a7c5",
                 "port": "clk"
-              }
-            },
-            {
-              "source": {
-                "block": "6a510b44-69c7-4574-8318-03e6c3c32739",
-                "port": "out"
-              },
-              "target": {
-                "block": "fa397952-4de8-4433-9e68-eb6d25c04eea",
-                "port": "inlabel"
-              }
-            },
-            {
-              "source": {
-                "block": "fb61a282-ecc6-4225-a582-c9a869a74dfe",
-                "port": "out"
-              },
-              "target": {
-                "block": "99b59553-ce43-4b8a-91a7-4422530ee6c1",
-                "port": "inlabel"
-              }
-            },
-            {
-              "source": {
-                "block": "8a0ee652-76b1-4650-8578-7f3aee5e1d79",
-                "port": "estado_siguiente"
-              },
-              "target": {
-                "block": "0353494b-1620-47cd-8e8b-e8783b4a9821",
-                "port": "estado_siguiente"
-              },
-              "size": 2
-            },
-            {
-              "source": {
-                "block": "0353494b-1620-47cd-8e8b-e8783b4a9821",
-                "port": "estado_actual"
-              },
-              "target": {
-                "block": "8a0ee652-76b1-4650-8578-7f3aee5e1d79",
-                "port": "estado_actual"
-              },
-              "vertices": [
-                {
-                  "x": 1640,
-                  "y": 616
-                },
-                {
-                  "x": 24,
-                  "y": 584
-                }
-              ],
-              "size": 2
-            },
-            {
-              "source": {
-                "block": "c1afd279-3ed4-4993-8878-aaa1e507106f",
-                "port": "out"
-              },
-              "target": {
-                "block": "8a0ee652-76b1-4650-8578-7f3aee5e1d79",
-                "port": "inA"
-              }
-            },
-            {
-              "source": {
-                "block": "33d30b91-7e88-46c0-9f1d-8b04ecb04673",
-                "port": "out"
-              },
-              "target": {
-                "block": "8a0ee652-76b1-4650-8578-7f3aee5e1d79",
-                "port": "inB"
-              }
-            },
-            {
-              "source": {
-                "block": "0353494b-1620-47cd-8e8b-e8783b4a9821",
-                "port": "estado_actual"
-              },
-              "target": {
-                "block": "1fbb6ae8-bae6-47f3-a088-099f5966e874",
-                "port": "estado_actual"
-              },
-              "size": 2
-            },
-            {
-              "source": {
-                "block": "1fbb6ae8-bae6-47f3-a088-099f5966e874",
-                "port": "OutA"
-              },
-              "target": {
-                "block": "ad4fa8f1-67d6-4fe4-afcb-72817cf14274",
-                "port": "in"
-              }
-            },
-            {
-              "source": {
-                "block": "1fbb6ae8-bae6-47f3-a088-099f5966e874",
-                "port": "OutB"
-              },
-              "target": {
-                "block": "c0f951d7-5812-488d-a227-62797120f98f",
-                "port": "in"
               }
             }
           ]

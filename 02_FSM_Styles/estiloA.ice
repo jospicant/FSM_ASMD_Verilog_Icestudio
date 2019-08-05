@@ -46,7 +46,7 @@
             "virtual": true
           },
           "position": {
-            "x": 1288,
+            "x": 1256,
             "y": 312
           }
         },
@@ -105,7 +105,7 @@
             "virtual": true
           },
           "position": {
-            "x": 1288,
+            "x": 1256,
             "y": 704
           }
         },
@@ -161,11 +161,11 @@
             }
           },
           "position": {
-            "x": 240,
+            "x": 208,
             "y": 144
           },
           "size": {
-            "width": 968,
+            "width": 1008,
             "height": 792
           }
         },
@@ -173,12 +173,12 @@
           "id": "ee66b244-b769-4743-a8ca-8d904bfbbeb2",
           "type": "basic.info",
           "data": {
-            "info": "\n![FSM](./imagenes/03_fsm.jpg) ",
+            "info": "\n![FSM](https://raw.githubusercontent.com/jospicant/FSM_ASMD_Verilog_Icestudio/master/02_FSM_Styles/imagenes/03_fsm.jpg) ",
             "readonly": true
           },
           "position": {
-            "x": 1416,
-            "y": 72
+            "x": 1496,
+            "y": 32
           },
           "size": {
             "width": 512,

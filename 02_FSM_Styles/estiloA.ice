@@ -28,7 +28,7 @@
           },
           "position": {
             "x": 32,
-            "y": 208
+            "y": 200
           }
         },
         {
@@ -46,8 +46,8 @@
             "virtual": true
           },
           "position": {
-            "x": 1256,
-            "y": 312
+            "x": 1192,
+            "y": 288
           }
         },
         {
@@ -66,8 +66,8 @@
             "clock": false
           },
           "position": {
-            "x": 32,
-            "y": 408
+            "x": 40,
+            "y": 368
           }
         },
         {
@@ -87,7 +87,7 @@
           },
           "position": {
             "x": 32,
-            "y": 608
+            "y": 560
           }
         },
         {
@@ -105,8 +105,8 @@
             "virtual": true
           },
           "position": {
-            "x": 1256,
-            "y": 704
+            "x": 1200,
+            "y": 648
           }
         },
         {
@@ -125,8 +125,8 @@
             "clock": false
           },
           "position": {
-            "x": 40,
-            "y": 808
+            "x": 24,
+            "y": 736
           }
         },
         {
@@ -165,24 +165,40 @@
             "y": 144
           },
           "size": {
-            "width": 1008,
-            "height": 792
+            "width": 944,
+            "height": 712
           }
         },
         {
           "id": "ee66b244-b769-4743-a8ca-8d904bfbbeb2",
           "type": "basic.info",
           "data": {
-            "info": "\n![FSM](https://raw.githubusercontent.com/jospicant/FSM_ASMD_Verilog_Icestudio/master/02_FSM_Styles/imagenes/03_fsm.jpg) ",
+            "info": "\n![FSM](https://raw.githubusercontent.com/jospicant/FSM_ASMD_Verilog_Icestudio/master/02_FSM_Styles/imagenes/03_fsm.jpg)  \n\n![Bloques](https://raw.githubusercontent.com/jospicant/FSM_ASMD_Verilog_Icestudio/master/02_FSM_Styles/imagenes/04_estiloA.jpg)  \n",
             "readonly": true
           },
           "position": {
-            "x": 1496,
-            "y": 32
+            "x": 1328,
+            "y": -48
           },
           "size": {
-            "width": 512,
-            "height": 256
+            "width": 552,
+            "height": 160
+          }
+        },
+        {
+          "id": "29a44435-e2d9-4a67-a536-14d5b578b654",
+          "type": "basic.info",
+          "data": {
+            "info": "## Codificación de una máquina de estado FSM. ( 2 ALWAYS )\nAquí vemos un ejemplo de como se puede codificar una máquina de estado usando un buen estilo.  \nEl diagrama de bloques de una máquina de estado Moore lo codificacmos usando 2 bloques always.  \n 1 bloque always ( secuencial). Se captura el estado actual.\n 1 bloque always (combinacional) donde se unifican tanto el bloque combinacional que calcula el nuevo estado como  \n el bloque combinacional que nos genera la salida en función del estado en el que nos encontramos (Moore).\n",
+            "readonly": true
+          },
+          "position": {
+            "x": 232,
+            "y": -64
+          },
+          "size": {
+            "width": 1040,
+            "height": 160
           }
         }
       ],

@@ -39,8 +39,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "D2",
-                "value": "98"
+                "name": "D1",
+                "value": "99"
               }
             ],
             "virtual": false
@@ -58,8 +58,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "D1",
-                "value": "99"
+                "name": "D2",
+                "value": "98"
               }
             ],
             "virtual": false
@@ -77,8 +77,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "PMOD7",
-                "value": "87"
+                "name": "PMOD3",
+                "value": "80"
               }
             ],
             "virtual": false,

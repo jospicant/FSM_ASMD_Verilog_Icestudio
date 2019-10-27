@@ -1,9 +1,9 @@
 {
   "version": "1.2",
   "package": {
-    "name": "fsm2always",
+    "name": "fsm1always",
     "version": "v1.0",
-    "description": "Ejemplo de una máquina de estados usando 2 always ",
+    "description": "Ejemplo de una máquina de estados usando 1 always único",
     "author": "José Picó",
     "image": ""
   },
@@ -133,7 +133,7 @@
           "id": "97541011-cb2f-41b3-a165-f528e7a7f678",
           "type": "basic.info",
           "data": {
-            "info": "\nMódulo formado por la importación de un módulo verilog desde su fichero *.v (01_fsm2always.v)\n\nSe instancia el módulo para crear nuestro módulo.",
+            "info": "\nMódulo formado por la importación de un módulo verilog desde su fichero *.v (01_fsm1always.v)\n\nSe instancia el módulo para crear nuestro módulo.",
             "readonly": false
           },
           "position": {
@@ -149,7 +149,7 @@
           "id": "7b5469f0-4314-47ee-8a99-f7bda647a7c5",
           "type": "basic.code",
           "data": {
-            "code": "\n\n//@include 01_fsm2always.v\n\nmy_fsm2always  miMaquina(.clk(clk),.reset(reset),.inA(A),.inB(B),.OutA(O1),.OutB(O2));",
+            "code": "\n\n//@include 01_fsm1always.v\n\nmy_fsm1always  miMaquina(.clk(clk),.reset(reset),.inA(A),.inB(B),.OutA(O1),.OutB(O2));",
             "params": [],
             "ports": {
               "in": [
